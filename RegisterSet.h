@@ -19,19 +19,19 @@
 #define ACRO_R15 "R15"
 
 //Machine Code Register Operands  
-#define MCRO_R0  "0000"
-#define MCRO_R1  "0001"
-#define MCRO_R2  "0010"
-#define MCRO_R3  "0011"
-#define MCRO_R4  "0100"
-#define MCRO_R5  "0101"
-#define MCRO_R6  "0110"
-#define MCRO_R7  "0111"
-#define MCRO_R8  "1000"
-#define MCRO_R9  "1001"
-#define MCRO_R10 "1010"
-#define MCRO_R11 "1011"
-#define MCRO_R12 "1100"
-#define MCRO_R13 "1101"
-#define MCRO_R14 "1110"
-#define MCRO_R15 "1111"
+#define MCRO_R0  0x00
+#define MCRO_R1  0x01
+#define MCRO_R2  0x02
+#define MCRO_R3  0x03
+#define MCRO_R4  0x04
+#define MCRO_R5  0x05
+#define MCRO_R6  0x06
+#define MCRO_R7  0x07
+#define MCRO_R8  0x08
+#define MCRO_R9  0x09
+#define MCRO_R10 0x0A
+#define MCRO_R11 0x0B
+#define MCRO_R12 0x0C
+#define MCRO_R13 0x0D
+#define MCRO_R14 0x0E
+#define MCRO_R15 0x0F

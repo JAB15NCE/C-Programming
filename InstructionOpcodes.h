@@ -1,9 +1,5 @@
 #pragma once
 
-//Data Directives
-#define DSS "DSS"
-#define DWORD "DWORD"
-
 //Assembly mnemonics 
 #define MOVI "MOVI"
 #define ADD  "ADD"
@@ -23,22 +19,19 @@
 #define HALT "HALT"
 
 //Machine Opcodes
-#define OPCODE_MOVI "0000"
-#define OPCODE_ADD  "0001"
-#define OPCODE_SUB  "0010"
-#define OPCODE_CMP  "0011"
-#define OPCODE_MUL  "0100"
-#define OPCODE_DIV  "0101"
-#define OPCODE_LDR  "0110"
-#define OPCODE_STR  "0111"
-#define OPCODE_BE   "1000"
-#define OPCODE_BNE  "1001"
-#define OPCODE_BL   "1010"
-#define OPCODE_BG   "1011"
-#define OPCODE_BLE  "1100"
-#define OPCODE_BGE  "1101"
-#define OPCODE_B    "1110"
-#define OPCODE_HALT "1111"
-
-//Machine Code Instruction Alignment Padding  
-#define MCIA_PADDING "0000"
+#define OPCODE_MOVI 0x00
+#define OPCODE_ADD  0x01
+#define OPCODE_SUB  0x02
+#define OPCODE_CMP  0x03
+#define OPCODE_MUL  0x04
+#define OPCODE_DIV  0x05
+#define OPCODE_LDR  0x06
+#define OPCODE_STR  0x07
+#define OPCODE_BE   0x08
+#define OPCODE_BNE  0x09
+#define OPCODE_BL   0x0A
+#define OPCODE_BG   0x0B
+#define OPCODE_BLE  0x0C
+#define OPCODE_BGE  0x0D
+#define OPCODE_B    0x0E
+#define OPCODE_HALT 0x0F
